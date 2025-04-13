@@ -15,8 +15,8 @@ import java.util.List;
 
 public class PillDatabase {
 	private static final String URL = "jdbc:mysql://localhost:3306/pill"; //URL to connect to the SQL server containing the table
-    private static final String USERNAME = "Subs";	
-    private static final String PASSWORD = "103017";	
+    private static final String USERNAME = "USERNAME";	
+    private static final String PASSWORD = "PASSWORD";	
 
     private Connection connection = null;
     private PreparedStatement selectAllPills = null;
